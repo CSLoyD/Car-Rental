@@ -60,6 +60,10 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xhdpi\\hyunda.png"
     },
     {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_logoico.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-hdpi\\logoico.png"
+    },
+    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
     },
@@ -120,12 +124,16 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xxhdpi\\veg_vvvthali.jpg"
     },
     {
-        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_non_veg.png.flat",
-        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xxhdpi\\non_veg.png"
-    },
-    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dessert.jpg.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xhdpi\\dessert.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_toyot.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-hdpi\\toyot.png"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_non_veg.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xxhdpi\\non_veg.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_dessert_l.png.flat",
@@ -134,6 +142,10 @@
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_n__veg.xml.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\layout\\activity_n__veg.xml"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_toyot.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-mdpi\\toyot.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable_h_accent.jpg.flat",
@@ -176,12 +188,12 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-hdpi\\hyunda.png"
     },
     {
-        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dessert_l.png.flat",
-        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-hdpi\\dessert_l.png"
-    },
-    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_hond.png.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xxxhdpi\\hond.png"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_dessert_l.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-hdpi\\dessert_l.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_hond.png.flat",
@@ -192,12 +204,12 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable\\n_navarra.jpg"
     },
     {
-        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dessert_blur.jpg.flat",
-        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-mdpi\\dessert_blur.jpg"
-    },
-    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_hyunda.png.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xxxhdpi\\hyunda.png"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dessert_blur.jpg.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-mdpi\\dessert_blur.jpg"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_hyunda.png.flat",
@@ -252,6 +264,10 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\layout\\activity_virtual_waitress.xml"
     },
     {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable_t_avanza.jpg.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable\\t_avanza.jpg"
+    },
+    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_nissa.png.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xxhdpi\\nissa.png"
     },
@@ -262,6 +278,10 @@
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_veg_vvvthali.jpg.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-mdpi\\veg_vvvthali.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_toyot.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xhdpi\\toyot.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_splash.jpg.flat",
@@ -296,6 +316,10 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\anim\\fadin.xml"
     },
     {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_toyot.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xxxhdpi\\toyot.png"
+    },
+    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\anim_fadout.xml.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\anim\\fadout.xml"
     },
@@ -326,6 +350,10 @@
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_dessert.xml.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\layout\\activity_dessert.xml"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_logoico.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-mdpi\\logoico.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-mdpi_hyunda.png.flat",
@@ -364,12 +392,12 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable\\h_brv.jpg"
     },
     {
-        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_str_blur.jpg.flat",
-        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-hdpi\\str_blur.jpg"
-    },
-    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\anim_right_left.xml.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\anim\\right_left.xml"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_str_blur.jpg.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-hdpi\\str_blur.jpg"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_thankyou.xml.flat",
@@ -380,8 +408,16 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-hdpi\\register_table.jpg"
     },
     {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable_t_vios.jpg.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable\\t_vios.jpg"
+    },
+    {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_thanku2.jpg.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xxhdpi\\thanku2.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_toyot.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xxhdpi\\toyot.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi_vegs.png.flat",
@@ -404,12 +440,16 @@
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xxhdpi\\menu.png"
     },
     {
-        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_hond.png.flat",
-        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xhdpi\\hond.png"
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable_t_wigo.jpg.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable\\t_wigo.jpg"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\anim_push_up_in.xml.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\anim\\push_up_in.xml"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_hond.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xhdpi\\hond.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-hdpi_menu.png.flat",
@@ -422,6 +462,10 @@
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_n_veg.jpg.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xxhdpi\\n_veg.jpg"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xhdpi_logoico.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xhdpi\\logoico.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_order__type.xml.flat",
@@ -438,6 +482,14 @@
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxhdpi_vegvectrr.png.flat",
         "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\drawable-xxhdpi\\vegvectrr.png"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxhdpi_logoico.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xxhdpi\\logoico.png"
+    },
+    {
+        "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-xxxhdpi_logoico.png.flat",
+        "source": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\src\\main\\res\\mipmap-xxxhdpi\\logoico.png"
     },
     {
         "merged": "C:\\Users\\Keonna\\Documents\\Projects\\Car-Rental\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi_dessert_l.png.flat",

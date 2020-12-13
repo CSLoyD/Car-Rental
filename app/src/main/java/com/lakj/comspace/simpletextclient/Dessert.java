@@ -219,11 +219,11 @@ public class Dessert extends Activity {
 
 
     public void total_cal() {
-        dessert_total = chocolate_ice_cream * (80) + vanilla_ice_cream * (70) + strawberry_ice_cream * (75) + falooda * (150) + brownie_fudge * (120) + alpine_chocolate * (150) + devils_delight * (100) + black_forest * (80) + chocolate_lava * (180) + dutch_almond * (120);
+        dessert_total = chocolate_ice_cream * (70) + vanilla_ice_cream * (60) + strawberry_ice_cream * (80) + falooda * (150) + brownie_fudge * (120) + alpine_chocolate * (150) + devils_delight * (100) + black_forest * (80) + chocolate_lava * (180) + dutch_almond * (120);
         finalize_order.all_total = Starters.starters_total + Veg.total_veg + N_Veg.n_veg_total + Dessert.dessert_total;
         if (finalize_order.all_total > 0) {
         TextView tv = (TextView) findViewById(R.id.dessert_tot_id);
-        tv.setText("" + "₹" + (finalize_order.all_total));
+        tv.setText("₱" + (finalize_order.all_total));
 
         }
         else{

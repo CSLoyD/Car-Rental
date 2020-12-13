@@ -69,9 +69,9 @@ ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidMan
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\caches\transforms-2\files-2.1\a663e283ac223007b964d7207e28654d\support-v4-23.0.1\AndroidManifest.xml:22:5-20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:23:9-41
+		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:23:9-42
 	android:icon
-		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:22:9-39
 	android:allowBackup
 		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:21:9-35
 	android:theme
@@ -79,13 +79,13 @@ MERGED from [com.android.support:support-v4:23.0.1] C:\Users\Keonna\.gradle\cach
 activity#com.lakj.comspace.simpletextclient.SlimpleTextClientActivity
 ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:25:9-28:20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:27:13-45
+		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:27:13-46
 	android:name
 		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:26:13-54
 activity#com.lakj.comspace.simpletextclient.VirtualWaitress
 ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:29:9-37:20
 	android:label
-		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:31:13-68
+		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:31:13-46
 	android:name
 		ADDED from C:\Users\Keonna\Documents\Projects\Car-Rental\app\src\main\AndroidManifest.xml:30:13-44
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER

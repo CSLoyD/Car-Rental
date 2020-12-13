@@ -54,14 +54,14 @@ public class finalize_order extends Activity {
 
     public void show_Order() {
         if (Dessert.chocolate_ice_cream > 0) {
-            fin_order_string = fin_order_string + "chocolate ice cream - " + String.valueOf(Dessert.chocolate_ice_cream) + ",";
+            fin_order_string = fin_order_string + "Toyota Vios - for " + String.valueOf(Dessert.chocolate_ice_cream) + " Hours" + "\n";
         }
         if (Dessert.vanilla_ice_cream > 0) {
-            fin_order_string = fin_order_string + "vanilla ice cream - " + String.valueOf(Dessert.vanilla_ice_cream) + ",";
+            fin_order_string = fin_order_string + "Toyota Wigo - for " + String.valueOf(Dessert.vanilla_ice_cream) + " Hours" + "\n";
         }
 
         if (Dessert.strawberry_ice_cream > 0) {
-            fin_order_string = fin_order_string + "strawberry ice cream - " + String.valueOf(Dessert.strawberry_ice_cream) + ",";
+            fin_order_string = fin_order_string + "Toyota Avanza - for " + String.valueOf(Dessert.strawberry_ice_cream) + " Hours" + "\n";
         }
         if (Dessert.falooda > 0) {
             fin_order_string = fin_order_string + "falooda - " + String.valueOf(Dessert.falooda) + ",";
@@ -196,7 +196,7 @@ public class finalize_order extends Activity {
     public void tot_v(){
         all_total=all_total+old_all_total;
         TextView tv = (TextView) findViewById(R.id.tot_p);
-        tv.setText("total price:" + "Php" +(finalize_order.all_total));
+        tv.setText("Amount: " + "₱" +(finalize_order.all_total));
     }
 
 
@@ -237,15 +237,15 @@ public class finalize_order extends Activity {
 
     final Object o = this;
     AlertDialog.Builder builder = new AlertDialog.Builder(this);
-    builder.setMessage("Are you sure you want to confirm this order?")
+    builder.setMessage("Are you sure you want rent this car?")
             .setCancelable(false)
             .setPositiveButton("Yes", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                      messsage = "Order Details: \n"
-                              + "Table #: " + SlimpleTextClientActivity.tablex
-                              + "Orders: \n" + fin_order_string
-                              + "\n Total: " + Integer.toString(all_total)
-                              + "Additional Notes" +personal_preferances;
+                      messsage = "Renting Details: \n"
+                              + "Name: " + SlimpleTextClientActivity.tablex
+                              + "\nVehicle to rent: \n" + fin_order_string
+                              + "\nAmount: "+ "Php" + Integer.toString(all_total);
+//                              + "\nCustomer note: " + personal_preferances;
                         ; // get the text message on the text field
                         // messsage = "Order:" + SlimpleTextClientActivity.tablex + "|" + fin_order_string + "|" + Integer.toString(all_total);
                         SendMessage sendMessageTask = new SendMessage();

@@ -38,6 +38,9 @@ drawable soup_l
 drawable splash
 drawable str
 drawable str_blur
+drawable t_avanza
+drawable t_vios
+drawable t_wigo
 drawable thanku2
 drawable toyota_log
 drawable veg_vvvthali
@@ -93,6 +96,7 @@ id imageView
 id imageView2
 id imageView3
 id imageView4
+id imageView5
 id kolhapuri_chicken_order
 id masala_papad_order
 id mutter_paneer_order
@@ -130,7 +134,7 @@ id textView4
 id textView5
 id textView6
 id textView8
-id textView9
+id texttitle
 id tomato_soup_order
 id tot_p
 id total_on_mm
@@ -151,6 +155,7 @@ id txt54
 id txt6
 id txt62
 id txt63
+id txtmain
 id vannila_ice_cream_order
 id veg_biryani_order
 id veg_burger_order
@@ -175,7 +180,9 @@ menu slimple_text_client
 mipmap hond
 mipmap hyunda
 mipmap ic_launcher
+mipmap logoico
 mipmap nissa
+mipmap toyot
 string action_settings
 string app_name
 string hello_world

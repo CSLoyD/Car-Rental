@@ -134,7 +134,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="C:\Users\Keonna\Downloads\7\hyundai_log.png" />
+                                                <entry key="imagePath" value="C:\Users\Keonna\Downloads\7\logs.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -167,8 +167,8 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="C:\Users\Keonna\Downloads\7\hyundai_log.png" />
-                                      <entry key="outputName" value="hyunda" />
+                                      <entry key="imageAsset" value="C:\Users\Keonna\Downloads\7\logs.png" />
+                                      <entry key="outputName" value="logoico" />
                                     </map>
                                   </option>
                                 </PersistentState>
