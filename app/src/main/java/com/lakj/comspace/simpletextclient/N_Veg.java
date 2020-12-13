@@ -208,7 +208,7 @@ public class N_Veg extends Activity {
 
 
     public void total_cal() {
-        n_veg_total = chicken_burger * (120) + chicken_bbq_pizza * (80) + chicken_tikka * (95) + fried_fish_rice * (250) + kolhapuri_chicken * (120) + chicken_noodles * (120) + chicken_fried_rice * (120) + chicken_lollipop * (100) + chicken_biryani * (180) + mutton_biryani * (200);
+        n_veg_total = chicken_burger * (60) + chicken_bbq_pizza * (80) + chicken_tikka * (95) + fried_fish_rice * (250) + kolhapuri_chicken * (120) + chicken_noodles * (120) + chicken_fried_rice * (120) + chicken_lollipop * (100) + chicken_biryani * (180) + mutton_biryani * (200);
         finalize_order.all_total = Starters.starters_total + Veg.total_veg + N_Veg.n_veg_total + Dessert.dessert_total;
         if (finalize_order.all_total > 0) {
             TextView tv = (TextView) findViewById(R.id.n_veg_tot_id);

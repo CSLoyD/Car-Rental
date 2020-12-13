@@ -15,9 +15,12 @@ drawable applogo
 drawable dessert
 drawable dessert_blur
 drawable dessert_l
+drawable h_accent
 drawable h_brv
 drawable h_city
 drawable h_civic
+drawable h_tucson
+drawable h_venue
 drawable honda_logo
 drawable hyundai_log
 drawable ic_launcher
@@ -53,7 +56,6 @@ id button4
 id button5
 id button6
 id button7
-id button9
 id cheese_pakoda_order
 id cheesepizza_decid
 id cheesepizza_incid
@@ -171,6 +173,7 @@ layout activity_veg
 layout activity_virtual_waitress
 menu slimple_text_client
 mipmap hond
+mipmap hyunda
 mipmap ic_launcher
 mipmap nissa
 string action_settings

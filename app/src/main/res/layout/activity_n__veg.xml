@@ -27,9 +27,8 @@
             android:layout_height="135dp"
             android:layout_alignParentTop="true"
             android:layout_centerHorizontal="true"
-            android:textSize="40dp"
             android:background="@mipmap/nissa"
-        android:id="@+id/textView" />
+            android:id="@+id/textView" />
 
         <ScrollView
             android:id="@+id/scrollView"
@@ -101,7 +100,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="0dp"
                     android:layout_marginTop="1dp"
-                    android:text="Transmission: CVT"
+                    android:text="Transmission: Manual | Automatic"
                     android:textColor="#fff"
                     android:textSize="14sp" />
 
@@ -113,7 +112,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="0dp"
                     android:layout_marginTop="1dp"
-                    android:text="Max Output: 120 HP @ 6,600 rpm"
+                    android:text="Max Output: 99 HP @ 6,000 rpm"
                     android:textColor="#fff"
                     android:textSize="14sp" />
 
@@ -125,7 +124,7 @@
                     android:layout_alignParentLeft="true"
                     android:layout_marginLeft="0dp"
                     android:layout_marginTop="1dp"
-                    android:text="Wheel Size: 16 in"
+                    android:text="Wheel Size: 15 in"
                     android:textColor="#fff"
                     android:textSize="14sp" />
 
@@ -137,7 +136,7 @@
                     android:layout_alignParentBottom="true"
                     android:layout_marginLeft="0dp"
                     android:layout_marginBottom="15dp"
-                    android:text="Rent: ₱70 per Hour"
+                    android:text="Rent: ₱60 per Hour"
                     android:textColor="#fff"
                     android:textSize="18sp" />
 

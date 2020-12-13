@@ -6,23 +6,33 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     android:paddingBottom="@dimen/activity_vertical_margin"
     tools:context="com.lakj.comspace.simpletextclient.Veg"
-    android:background="#fff"
+    android:background="#9C27B0"
     >
+
+    <ScrollView
+        android:id="@+id/scrollViews"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="40dp"
+        android:fillViewport="true"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Veg Items"
-        android:textColor="#000000"
-        android:textStyle="bold"
-        android:textSize="25sp"
-        android:id="@+id/textView2"
+        android:layout_width="150dp"
+        android:layout_height="135dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"
+        android:background="@mipmap/hyunda"
+        android:id="@+id/textView2"/>
 
     <ScrollView
         android:id="@+id/scrollView"
         android:layout_width="wrap_content"
-        android:layout_height="430dp"
+        android:layout_height="wrap_content"
         android:padding="15dp"
         android:layout_below="@+id/textView2"
         android:layout_alignParentEnd="true">
@@ -36,27 +46,94 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="320dp"
                 android:padding="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/h_accent" />
+
                 <TextView
+                    android:id="@+id/prod_1_tittle"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/imageView2"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:padding="10dp"
-                    android:text="Roti (₹20)"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Hyundai Accent"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prod_1_tittle"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of seats: 5"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Fuel Type: Gasoline | Diesel"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Transmission: Manual | Automatic"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt4"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Max Output: 128 HP @ 4,000 rpm"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Rent: ₱75 per Hour"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_gravity="right"
+                    android:layout_marginBottom="15dp"
                     android:orientation="horizontal">
 
                     <Button
@@ -99,28 +176,94 @@
             <RelativeLayout
 
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="320dp"
                 android:padding="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/h_tucson" />
+
                 <TextView
+                    android:id="@+id/prod_1_tittle2"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/imageView3"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:padding="10dp"
-                    android:text="Butter Roti(₹25)"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Hyundai Tucson"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
 
+                <TextView
+                    android:id="@+id/txt22"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prod_1_tittle2"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of seats: 5"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt32"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt22"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Fuel Type: Gasoline | Diesel"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt42"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt32"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Transmission: Manual | Automatic"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt52"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt42"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Max Output: 185 HP @ 4,000 rpm"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt62"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Rent: ₱100 per Hour"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
 
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="15dp"
                     android:orientation="horizontal">
 
 
@@ -163,27 +306,106 @@
 
             <RelativeLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="320dp"
                 android:padding="5dp">
 
+                <ImageView
+                    android:id="@+id/imageView4"
+                    android:layout_width="250dp"
+                    android:layout_height="140dp"
+                    android:src="@drawable/h_venue" />
+
                 <TextView
+                    android:id="@+id/prod_1_tittle3"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_alignParentBottom="true"
+                    android:layout_below="@+id/imageView4"
                     android:layout_alignParentLeft="true"
-                    android:layout_alignParentStart="true"
-                    android:padding="10dp"
-                    android:text="Paneer Tikka(₹180)"
-                    android:textColor="#000000"
-                    android:textSize="14sp"
-                    android:textStyle="bold"
-                    />
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Hyundai Venue"
+                    android:textColor="#fff"
+                    android:textSize="20sp" />
+
+                <TextView
+                    android:id="@+id/txt23"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/prod_1_tittle3"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="5dp"
+                    android:text="No. of seats: 5"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt23"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Fuel Type: Gasoline"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt33"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Transmission: Automatic"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt53"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt43"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Max Output: 121 HP @ 6,300 rpm"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt54"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/txt53"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Wheel Size: 15 in - 17 in"
+                    android:textColor="#fff"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/txt63"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginLeft="0dp"
+                    android:layout_marginBottom="15dp"
+                    android:text="Rent: ₱90 per Hour"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
 
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_alignParentRight="true"
+                    android:layout_alignParentBottom="true"
                     android:layout_gravity="right"
+                    android:layout_marginBottom="15dp"
                     android:orientation="horizontal">
 
                     <Button
@@ -225,6 +447,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:padding="5dp">
 
                 <TextView
@@ -286,6 +509,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:padding="5dp">
 
                 <TextView
@@ -346,6 +570,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:padding="5dp">
 
                 <TextView
@@ -408,6 +633,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:padding="5dp">
 
                 <TextView
@@ -470,6 +696,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:padding="5dp">
 
                 <TextView
@@ -532,6 +759,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:padding="5dp">
 
                 <TextView
@@ -595,6 +823,7 @@
             <RelativeLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:visibility="gone"
                 android:padding="5dp">
 
                 <TextView
@@ -655,36 +884,53 @@
 
         </LinearLayout>
     </ScrollView>
-    <TextView
-        android:textSize="20sp"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text=""
-        android:id="@+id/veg_total_id"
-        android:textColor="@android:color/black"
-        android:padding="10dp"
-        android:layout_below="@+id/scrollView"
-        android:layout_alignEnd="@+id/scrollView"
-        android:layout_marginEnd="31dp" />
-    <Button
-        android:layout_width="80dp"
-        android:layout_height="40dp"
-        android:text="Main Menu"
-        android:textColor="#ffff"
-        android:background="#03A9F4"
-        android:onClick="main_menu"
-        android:layout_below="@+id/button9"
-        android:layout_centerHorizontal="true" />
+            <Button
+                android:id="@+id/button"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/button7"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="66dp"
+                android:background="#03A9F4"
+                android:onClick="main_menu"
+                android:text="Main Menu" />
 
-    <Button
-        android:layout_width="70dp"
-        android:layout_height="40dp"
-        android:text="Proceed"
-        android:background="#03A9F4"
-        android:textColor="#ffff"
-        android:onClick="fin_ord"
-        android:id="@+id/button9"
-        android:layout_marginStart="28dp"
-        android:layout_alignBottom="@+id/veg_total_id"
-        android:layout_alignParentStart="true" />
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/scrollView"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="66dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="66dp"
+                android:background="#1DE9B6"
+                android:onClick="fin_ord"
+                android:text="Book Now" />
+
+
+            <TextView
+                android:id="@+id/veg_total_id"
+                android:layout_width="300dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/button"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="90dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="90dp"
+                android:layout_marginBottom="50dp"
+                android:textColor="#ffff"
+                android:textAlignment="center"
+                android:gravity="center"
+                android:text=""
+                android:textSize="20sp" />
+
+</RelativeLayout>
+
+    </ScrollView>
 </RelativeLayout>

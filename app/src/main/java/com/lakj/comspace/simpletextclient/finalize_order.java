@@ -87,13 +87,13 @@ public class finalize_order extends Activity {
             fin_order_string = fin_order_string + "dutch almond - " + String.valueOf(Dessert.dutch_almond) + ",";
         }
         if (N_Veg.chicken_burger > 0) {
-            fin_order_string = fin_order_string + "chicken burger - " + String.valueOf(N_Veg.chicken_burger) + ",";
+            fin_order_string = fin_order_string + "Nissan Almera - for " + String.valueOf(N_Veg.chicken_burger) + " Hours" + "\n";
         }
         if (N_Veg.chicken_bbq_pizza > 0) {
-            fin_order_string = fin_order_string + "chicken bbq pizza - " + String.valueOf(N_Veg.chicken_bbq_pizza) + ",";
+            fin_order_string = fin_order_string + "Nissan Navara - for " + String.valueOf(N_Veg.chicken_bbq_pizza) + " Hours" + "\n";
         }
         if (N_Veg.chicken_tikka > 0) {
-            fin_order_string = fin_order_string + "chicken tikka - " + String.valueOf(N_Veg.chicken_tikka) + ",";
+            fin_order_string = fin_order_string + "Nissan Terra - for " + String.valueOf(N_Veg.chicken_tikka) + " Hours" + "\n";
         }
         if (N_Veg.fried_fish_rice > 0) {
             fin_order_string = fin_order_string + "fried fish rice - " + String.valueOf(N_Veg.fried_fish_rice) + ",";
@@ -120,13 +120,13 @@ public class finalize_order extends Activity {
         }
 
         if (Veg.roti > 0) {
-            fin_order_string = fin_order_string + "roti - " + String.valueOf(Veg.roti) + ",";
+            fin_order_string = fin_order_string + "Hyundai Accent - for " + String.valueOf(Veg.roti) + " Hours" + "\n";
         }
         if (Veg.butter_roti > 0) {
-            fin_order_string = fin_order_string + "butter roti - " + String.valueOf(Veg.butter_roti) + ",";
+            fin_order_string = fin_order_string + "Hyundai Tucson - for " + String.valueOf(Veg.butter_roti) + " Hours" + "\n";
         }
         if (Veg.paneer_tikka > 0) {
-            fin_order_string = fin_order_string + "paneer tikka - " + String.valueOf(Veg.paneer_tikka) + ",";
+            fin_order_string = fin_order_string + "Hyundai Venue - for " + String.valueOf(Veg.paneer_tikka) + " Hours" + "\n";
         }
 
         if (Veg.veg_pulao > 0) {
