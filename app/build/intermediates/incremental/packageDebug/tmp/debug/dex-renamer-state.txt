@@ -1,0 +1,4 @@
+#Sun Dec 13 20:49:45 CST 2020
+base.0=C\:\\Users\\Loyd\\Downloads\\Compressed\\Food Order\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\classes.dex
+path.0=classes.dex
+renamed.0=classes.dex
