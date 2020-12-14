@@ -32,7 +32,7 @@ public class SlimpleTextClientActivity extends Activity {
     private Button button;
     private String messsage;
     */
-    static int tablex;
+    static String tablex;
 
     @Override
     public void onBackPressed() {
@@ -90,28 +90,18 @@ public class SlimpleTextClientActivity extends Activity {
 
         EditText table = (EditText) findViewById(R.id.table_no);
         if (table.getText().toString().isEmpty()) {
-
             Toast.makeText(getApplicationContext(),
-                    "Please,enter your table number", Toast.LENGTH_SHORT).show();
+                    "Please,enter your name", Toast.LENGTH_SHORT).show();
         }
-
-
         else {
 
             Editable newTxt = (Editable) table.getText();
             String tbl_no = newTxt.toString();
-            tablex = Integer.parseInt(tbl_no); // get the text message on the text field
-            //SendMessage sendMessageTask = new SendMessage();
-            //sendMessageTask.execute();
-            if (tablex<=25 && tablex!=0) {
-                Intent intent = new Intent(this, Order_Type.class);
-                startActivity(intent);
-                overridePendingTransition(R.anim.fadin, R.anim.fadout);
-            }
-            else{
-                Toast.makeText(getApplicationContext(),
-                        "Please,enter valid table number", Toast.LENGTH_SHORT).show();
-            }
+            tablex = tbl_no; // get the text message on the text field
+
+            Intent intent = new Intent(this, Order_Type.class);
+            startActivity(intent);
+            overridePendingTransition(R.anim.fadin, R.anim.fadout);
         }
     }
 

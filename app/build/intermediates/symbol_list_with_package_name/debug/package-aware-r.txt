@@ -22,8 +22,13 @@ drawable h_civic
 drawable h_tucson
 drawable h_venue
 drawable honda_logo
+drawable honda_logo_background
 drawable hyundai_log
+drawable hyundai_logo_background
 drawable ic_launcher
+drawable ic_launcher_background
+drawable innerbg
+drawable introbg
 drawable logs
 drawable menu
 drawable menubg
@@ -32,6 +37,7 @@ drawable n_navarra
 drawable n_terra
 drawable n_veg
 drawable nissan_log
+drawable nissan_logo_background
 drawable non_veg
 drawable register_table
 drawable soup_l
@@ -43,6 +49,7 @@ drawable t_vios
 drawable t_wigo
 drawable thanku2
 drawable toyota_log
+drawable toyota_logo_background
 drawable veg_vvvthali
 drawable vegs
 drawable vegvectrr
