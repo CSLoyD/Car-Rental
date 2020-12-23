@@ -32,7 +32,7 @@ public class SlimpleTextClientActivity extends Activity {
     private Button button;
     private String messsage;
     */
-    static String tablex;
+    static String tablex, uNum;
 
     @Override
     public void onBackPressed() {
@@ -89,15 +89,20 @@ public class SlimpleTextClientActivity extends Activity {
     public void nextact(View view) {
 
         EditText table = (EditText) findViewById(R.id.table_no);
-        if (table.getText().toString().isEmpty()) {
+        EditText userNumber = (EditText) findViewById(R.id.userNumber);
+        if (table.getText().toString().isEmpty() && userNumber.getText().toString().isEmpty()) {
             Toast.makeText(getApplicationContext(),
-                    "Please,enter your name", Toast.LENGTH_SHORT).show();
+                    "Please,enter your name and number", Toast.LENGTH_SHORT).show();
         }
         else {
 
             Editable newTxt = (Editable) table.getText();
             String tbl_no = newTxt.toString();
             tablex = tbl_no; // get the text message on the text field
+
+            Editable newnum = (Editable) userNumber.getText();
+            String userNo = newnum.toString();
+            uNum = userNo; // get the text message on the text field
 
             Intent intent = new Intent(this, Order_Type.class);
             startActivity(intent);

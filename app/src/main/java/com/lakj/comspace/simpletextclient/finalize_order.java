@@ -255,7 +255,7 @@ public class finalize_order extends Activity {
                         //Get the SmsManager instance and call the sendTextMessage method to send message
                         PendingIntent pi=PendingIntent.getActivity(getApplicationContext(), 0, nextact,0);
                             String msg = messsage.toString();
-                            String no = new Phone().phone;
+                            String no = SlimpleTextClientActivity.uNum;
                             SmsManager sms=SmsManager.getDefault();
                             sms.sendTextMessage(no, null, msg, pi,null);
                             startActivity(nextact);
